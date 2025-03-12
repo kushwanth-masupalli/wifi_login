@@ -72,7 +72,7 @@ try:
     username.send_keys("23bce9362")
     
     password = driver.find_element(By.NAME, "password")
-    password.send_keys("6x87MaFc")
+    password.send_keys("your_password")
 
     login_button = driver.find_element(By.ID, "loginbutton")
     login_button.click()
